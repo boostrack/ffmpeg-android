@@ -3,7 +3,7 @@ FFmpeg-Android
 
 A Fork from [ffmpeg-android](https://github.com/hiteshsondhi88/ffmpeg-android) modified to run on Mac
 
-######Note: Some libs are removed from the original repo to fit my project need. 
+######Note: Some libs are removed from the original repo to fit my project needs. 
 
 * FFmpeg for Android compiled with x264
 * Supports Android 5 (Lollipop) 
