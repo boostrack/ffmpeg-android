@@ -9,7 +9,6 @@ for i in "${SUPPORTED_ARCHITECTURES[@]}"
 do
   rm -rf ${TOOLCHAIN_PREFIX}
   ./x264_build.sh $i $BASEDIR 0 || exit 1
-  ./libpng_build.sh $i $BASEDIR 1 || exit 1
   ./ffmpeg_build.sh $i $BASEDIR 0 || exit 1
 done
 
