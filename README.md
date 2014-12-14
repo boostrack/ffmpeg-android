@@ -6,7 +6,7 @@ A Fork from [ffmpeg-android](https://github.com/hiteshsondhi88/ffmpeg-android) m
 ######Note: Some libs are removed from the original repo to fit my project need. 
 
 * FFmpeg for Android compiled with x264
-* Supports Android L 
+* Supports Android 5 (Lollipop) 
 * Tested on `Mac OS X Yosemite` and using Android NDK `android-ndk-r10d`. 
 
 Supported Architecture
