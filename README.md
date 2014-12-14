@@ -16,12 +16,13 @@ Supported Architecture
 
 Instructions
 ----
-* Set environment variable
-  1. export ANDROID_NDK={Android NDK Base Path}
-* Run following commands to compile ffmpeg 
-  2. Run `submodule update --init`
-  3. ./android_build.sh 
-* Find the executable binary in `build` directory. 
+1. Clone the repo: `git clone https://github.com/falnatsheh/ffmpeg-android.git`
+2. Navigate to the repo file: `cd ffmpeg-android`
+2. Set environment variable (replace with NDK Path) `export ANDROID_NDK={Android NDK Base Path}`
+2. Run following commands to compile ffmpeg 
+  1. `submodule update --init`
+  2. `./android_build.sh` 
+3. Find the executable binary in `build` directory. 
 
 License
 ----
