@@ -19,7 +19,7 @@ Instructions
 ----
 1. Clone the repo: `git clone https://github.com/falnatsheh/ffmpeg-android.git`
 2. Navigate to the repo file: `cd ffmpeg-android`
-2. Set environment variable `export ANDROID_NDK=`*{Replace With Android NDK Base Path}*
+2. Set environment variable (add your Android NDK path) `export ANDROID_NDK={Android NDK Base Path}'
 2. Run following commands to compile ffmpeg 
   1. `git submodule update --init`
   2. `./android_build.sh` 
