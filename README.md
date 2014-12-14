@@ -1,6 +1,10 @@
 FFmpeg-Android 
 ==============
 
+A Fork from [ffmpeg-android](https://github.com/hiteshsondhi88/ffmpeg-android) modified to run on Mac
+
+######Note: Some libs are removed from the original repo to fit my project need. 
+
 * FFmpeg for Android compiled with x264
 * Supports Android L 
 
@@ -14,12 +18,9 @@ Instructions
 ----
 * Set environment variable
   1. export ANDROID_NDK={Android NDK Base Path}
-* Run following commands to compile ffmpeg
-  1. Run the following commands (you need [Homebrew](http://brew.sh/)):
-  		 `brew Install autoconf libtool pkg-config gettext yasm wget`
-  2. ./init_update_libs.sh
-  3. ./android_build.sh
-* To update submodules and libraries you can use ./init_update_libs.sh command
+* Run following commands to compile ffmpeg 
+  2. Run `submodule update --init`
+  3. ./android_build.sh 
 * Find the executable binary in `build` directory. 
 
 License
