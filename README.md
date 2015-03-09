@@ -1,4 +1,4 @@
-FFmpeg-Android 
+FFmpeg-Android (http://stackoverflow.com/questions/27832052/how-do-i-modify-this-ffmpeg-build-script-for-minimal-binary-size-output) 
 ==============
 
 A Fork from [ffmpeg-android](https://github.com/hiteshsondhi88/ffmpeg-android) modified to run on Mac
